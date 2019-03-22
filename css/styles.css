@@ -189,6 +189,7 @@ ol li:hover {
     bottom: 2rem;
     opacity: 0;
     color: white;
+    text-align: center;
 }
 
 @keyframes fade-in {
