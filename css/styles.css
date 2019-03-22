@@ -108,6 +108,10 @@ hr:before {
     font-weight: 400;
 }
 
+.about-me-resume {
+    text-align: center;
+}
+
 .hobbies-header{
     text-align: center;
     margin-bottom: 10rem;
