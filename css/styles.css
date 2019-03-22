@@ -3,7 +3,7 @@
 
 html {
     box-sizing: border-box;
-    padding: 0 3rem;
+    
     
     font-size: 62.5%;
 }
@@ -156,7 +156,7 @@ ol li:hover {
     background-color: red;
 }
 
-.container-footer {
+.container-bottom {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -205,6 +205,29 @@ ol li:hover {
 #img-1:hover > .img-text {
     animation: fade-in 2s forwards;
     opacity: 1;
+}
+
+.footer {
+    background-color: #354649;
+    height: 10rem;
+    color: #e0e7e9;
+    font-size: 2rem;
+    display: flex;
+    
+    
+}
+
+.footer-txt {
+    margin: auto 2rem;
+}
+
+.glyphs {
+    margin-left: auto;
+    margin-right: 4rem;
+    margin-top: 3rem;
+    
+    font-size: 3rem;
+    
 }
 
 
