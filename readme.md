@@ -6,7 +6,10 @@
 
 ## Description
 
-_Portfolio website to showcase skills and current projects that I have been working on. Some that are completley my own, some that are tutorials from various sources such as Udemy_
+_
+website: https://wintermute787.github.io/fridayProject-1/
+
+Portfolio website to showcase skills and current projects that I have been working on. Some that are completley my own, some that are tutorials from various sources such as Udemy_
 
 ## Setup/Installation Requirements
 
