@@ -148,3 +148,11 @@ hr:before {
     width: 100%;
 }
 
+ol li {
+    transition: all .4s;
+}
+
+ol li:hover {
+    background-color: red;
+}
+
