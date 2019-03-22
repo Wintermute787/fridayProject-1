@@ -102,10 +102,25 @@ hr:before {
 
 .aboutme-header {
     text-align: center;
-    margin-bottom: 10rem;
+    
     text-transform: uppercase;
     letter-spacing: .5rem;
     font-weight: 400;
+    transition: all .2s;
+    
+}
+
+.aboutme-header::after {
+    content: '';
+    height: 1rem;
+    width: 0;
+    background: #354649;
+    transition: all .4s ease-in;
+    display: block;
+}
+
+.aboutme-header:hover::after {
+    width: 100%;
 }
 
 .about-me-resume {
@@ -118,5 +133,18 @@ hr:before {
     text-transform: uppercase;
     letter-spacing: .5rem;
     font-weight: 400;
+}
+
+.hobbies-header::after {
+    content: '';
+    height: 1rem;
+    width: 0;
+    background: #354649;
+    transition: all .4s ease-in;
+    display: block;
+}
+
+.hobbies-header:hover::after {
+    width: 100%;
 }
 
