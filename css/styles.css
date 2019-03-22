@@ -3,13 +3,14 @@
 
 html {
     box-sizing: border-box;
-    
+    padding: 0 2rem;
     
     font-size: 62.5%;
 }
 body {
     background-color: #e0e7e9;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
 header {
@@ -107,6 +108,7 @@ hr:before {
     letter-spacing: .5rem;
     font-weight: 400;
     transition: all .2s;
+    margin-bottom: 10rem;
     
 }
 
@@ -121,6 +123,10 @@ hr:before {
 
 .aboutme-header:hover::after {
     width: 100%;
+}
+
+.aboutme-text {
+    text-align: center;
 }
 
 .about-me-resume {
@@ -146,6 +152,10 @@ hr:before {
 
 .hobbies-header:hover::after {
     width: 100%;
+}
+
+.hobbies-text {
+    text-align: center;
 }
 
 ol li {
@@ -228,6 +238,14 @@ ol li:hover {
     
     font-size: 3rem;
     
+}
+
+.glyphs a:not(:last-child) {
+    margin-right: 4rem;
+}
+
+.glyphs a:visited {
+    color: #e0e7e9;
 }
 
 
