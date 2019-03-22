@@ -1,0 +1,22 @@
+/* colors: Hex: 354649 / 6C7A89 / A3C6C4 / E0E7E9 */
+
+
+html {
+    box-sizing: border-box;
+    padding: 0;
+    font-size: 62.5%;
+}
+
+header {
+    display: flex;
+    background-color: #354649;
+    color: #e0e7e9;
+    justify-content: center;
+}
+
+img {
+    justify-content: flex-end;
+    margin-left: auto;
+    
+    border-radius: 40%;
+}
